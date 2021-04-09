@@ -1,14 +1,10 @@
 import React from 'react'
-import { Features, Footer, Hero } from '../components'
-import Trusted from '../components/Trusted'
+import { Hero } from '../components'
 
 function Home() {
   return (
-    <div>
+    <div className='container'>
       <Hero />
-      <Features />
-      <Trusted />
-      <Footer />
     </div>
   )
 }

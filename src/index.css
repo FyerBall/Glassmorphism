@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;700;800&display=swap');
+
 :root {
   --transition: 0.3s all linear;
 }
@@ -7,11 +9,24 @@
   padding: 0;
   margin: 0;
 }
-
+body {
+  overflow: hidden;
+  font-family: Sarpanch;
+}
 li {
   list-style: none;
 }
 
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 .center {
   text-align: center;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
 }
